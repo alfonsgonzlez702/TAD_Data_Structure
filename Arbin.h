@@ -133,8 +133,14 @@ Arbin elimina(Arbin a) {
 	else
 		return consAB(raiz(a), elimina(hijoI(a)), hijoD(a));
 }
-/*
-void ImpArbinVertical(Arbin a) {
-	Cola q1 = nueva(), q2 = nueva();
+void ImpArbinHorizontal(Arbin a, int n) {
+	int i;
+	if (esnuevoAB(a))
+		return;
+	ImpArbinVertical(hijoD(a), n + 1);
+	for (i = 0; i < n; i++)
+		printf("	");
+
+	ImpElem(raiz(a)); printf("\n");
+	ImpArbinVertical(hijoI(a), n + 1);
 }
-*/
