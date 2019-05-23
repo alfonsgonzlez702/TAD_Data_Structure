@@ -1,3 +1,8 @@
+/*
+	PRECONDICIONES:
+	1) Neceario implementar en el archivo main los TDA Árbol Binario y Diccionario de Búsqueda Binaria.
+*/
+
 typedef DicBin AVL;
 
 int esAVL(AVL a) {
@@ -76,7 +81,7 @@ AVL borraElemAVL(Elem e, AVL a) {
 	Node Height: La altura de un nodo es el numero de aristas que hay en un camino entre nodo y una hoja;
 			la altura de raiz es uno y las hojas carecen de altura.
 	Numero de nodos:
-	Hojas: 		
+	Hojas: Aquellos hijos que no tienen hijos propios
 	Camino: Secuencia de nodos que conectan, mediante aristas, con sus descendentes.
 
 */
