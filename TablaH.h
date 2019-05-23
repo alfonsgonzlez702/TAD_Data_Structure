@@ -1,4 +1,11 @@
-
+/*
+	PRECONDICIONES:
+	1) Se requiere de la definición en el ELEM del tipo de dato cardinal. dicho tipo de dato será sometido al hashing 
+	   para obtener la posición en la tabla hash (revise README).
+	2) La tabla tiene una dimensión fija cuyo número es primo
+	3) Antes de usar recuperaTH:TablaH th, Cardinal a->Elem es necesario haber buscado el elemento primero y verificar que si
+	   se encuentra en la tabla de dispersión hash
+*/
 typedef struct tablah {
 	int m;
 	Lista* fila;
