@@ -69,3 +69,14 @@ Elem recuperaTH(TablaH th, Cardinal a) {
 	}
 	return cabeza(aux);
 }
+
+void ImpTH(TablaH th) {
+	int i;
+	for(i=0; i<NumCol(th); i++) {
+		if(!esvacia(Fila(th,i))) {
+			printf("{%d} ",i);
+			ImpLista(Fila(th,i));
+			printf("\n");
+		}
+	}
+}
