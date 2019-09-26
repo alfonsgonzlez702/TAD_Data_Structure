@@ -1,7 +1,7 @@
 # TAD_Data_Structure
 Lista de TDA de las distintas  estructuras de datos
 
-El tipo de dato Elem requiere su propio archivo .h para poder serimplementado con las demás.
+El tipo de dato Elem requiere su propio archivo .h para poder ser implementado con las demás.
 EJEMPLO:
 
 #include<string.h>
